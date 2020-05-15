@@ -16,6 +16,7 @@
  border: 2px solid black;
  background: black;
  color: #fff;
+ border-radius: 10px;
 }
 
 .content span {
