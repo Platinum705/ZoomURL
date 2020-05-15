@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: #affaff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.content a {
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3px;
+	flex-direction: column;
+	text-decoration: none;
+ border: 2px solid black;
+ background: black;
+ color: #fff;
+}
+
+.content span {
+	text-align: center;
+	font-size: 50px;
+}
+
+@media screen and (max-width:800px) {
+	.content a {
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3px;
+	flex-direction: column;
+	text-decoration: none;
+ border: 2px solid black;
+ background: black;
+ color: #fff;
+}
+
+.content span {
+	text-align: center;
+	font-size: 20px;
+ }
+}
